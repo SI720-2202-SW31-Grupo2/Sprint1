@@ -9,13 +9,10 @@ public class Buyer {
     private String Email;
     private int PhoneNumber;
     private String Password;
-    Ubication BuyerUbication = new Ubication();
-    PaymentMethod BuyerPaymentMethod = new PaymentMethod();
-    //constructor
-    public Buyer(){
-    }
-    //methods
-    public void RegisterBuyer(String firstname, String lastname, int dni, String email, int phonenumber, String password){
+    private Ubication BuyerUbication;
+    private PaymentMethod BuyerPaymentMethod;
+    private Order order;
+    public Buyer(String firstname, String lastname, int dni, String email, int phonenumber, String password){
         this.BuyerID = (int)(Math.random()*1000+1);
         this.FirstName = firstname;
         this.LastName = lastname;
@@ -28,11 +25,11 @@ public class Buyer {
         if(this.Email == email);
         if(this.Password == password);
     };
-    public void SetBuyerUbication(Ubication ubication){
-        this.BuyerUbication = ubication;
+    public void SetBuyerUbication(){
+        BuyerUbication = new Ubication();
     }
-    public void SetBuyerPaymentMethod(PaymentMethod paymentmethod){
-        this.BuyerPaymentMethod = paymentmethod;
+    public void SetBuyerPaymentMethod(String kind, long accountNumber, String firstname, String lastname, int month, int year, int cvv){
+        BuyerPaymentMethod = new PaymentMethod(kind, accountNumber, firstname, lastname, month, year, cvv);
     }
     public int GetBuyerID(){ return BuyerID; }
 }

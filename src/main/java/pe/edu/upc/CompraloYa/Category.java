@@ -18,13 +18,13 @@ public class Category {
     public String GetCategoryName(){
         return Name;
     }
-    public void ChangeCategoryName(String name){
+    public void SetCategoryName(String name){
         this.Name = name;
     }
     public String GetCategoryDescription(){
         return Description;
     }
-    public void ChangeCategoryDescription(String description){
+    public void SetCategoryDescription(String description){
         this.Description=description;
     }
 }

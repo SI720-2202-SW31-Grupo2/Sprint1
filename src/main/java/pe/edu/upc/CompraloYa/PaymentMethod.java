@@ -10,10 +10,7 @@ public class PaymentMethod {
     private int ExpirationMonth;
     private int ExpirationYear;
     private int CVV;
-    //constructor
-    public PaymentMethod(){}
-    //methods
-    public void AddPaymentMethod(String kind, long accountNumber, String firstname, String lastname, int month, int year, int cvv){
+    public PaymentMethod(String kind, long accountNumber, String firstname, String lastname, int month, int year, int cvv){
         this.PaymentMethodID= (int)(Math.random()*1000+1);
         this.Kind = kind;
         this.AccountNumber = accountNumber;
