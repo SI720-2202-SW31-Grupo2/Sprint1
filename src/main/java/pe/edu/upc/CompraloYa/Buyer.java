@@ -2,7 +2,7 @@ package pe.edu.upc.CompraloYa;
 
 public class Buyer {
     //fields
-    private int BuyerID;
+    private final int BuyerID;
     private String FirstName;
     private String LastName;
     private int DNI;
@@ -25,8 +25,8 @@ public class Buyer {
         if(this.Email == email);
         if(this.Password == password);
     };
-    public void SetBuyerUbication(){
-        BuyerUbication = new Ubication();
+    public void SetBuyerUbication(String address, String city){
+        BuyerUbication = new Ubication(address, city);
     }
     public void SetBuyerPaymentMethod(String kind, long accountNumber, String firstname, String lastname, int month, int year, int cvv){
         BuyerPaymentMethod = new PaymentMethod(kind, accountNumber, firstname, lastname, month, year, cvv);

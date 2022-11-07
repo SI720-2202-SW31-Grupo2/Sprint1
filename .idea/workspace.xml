@@ -11,7 +11,16 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Cancellation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Cancellation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Complain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Complain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/FavouriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/FavouriteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Promo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Promo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/ShopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/ShopList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Ubication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Ubication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Voucher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/CompraloYa/Voucher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

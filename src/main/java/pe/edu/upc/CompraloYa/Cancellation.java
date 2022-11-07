@@ -1,7 +1,7 @@
 package pe.edu.upc.CompraloYa;
 
 public class Cancellation {
-    private int CancellationID;
+    private final int CancellationID;
     private int Day;
     private int Month;
     private int Year;

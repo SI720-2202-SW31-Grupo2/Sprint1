@@ -2,7 +2,7 @@ package pe.edu.upc.CompraloYa;
 
 public class Category {
     //fields
-    private int CategoryID;
+    private final int CategoryID;
     private String Name;
     private String Description;
     //constructor

@@ -2,7 +2,7 @@ package pe.edu.upc.CompraloYa;
 
 public class Business {
     //fields
-    private int BusinessID;
+    private final int BusinessID;
     private String Name;
     private long RUC;
     private boolean State;
@@ -25,7 +25,7 @@ public class Business {
     public void SetRUC(long ruc){ this.RUC = ruc; }
     public boolean GetState(){ return State; }
     public Ubication GetUbication(){ return BusinessUbication; }
-    public void RegisterBusinessUbication(){
-        BusinessUbication = new Ubication();
+    public void RegisterBusinessUbication(String address, String city){
+        BusinessUbication = new Ubication(address, city);
     }
 }

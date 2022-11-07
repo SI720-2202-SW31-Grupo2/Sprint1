@@ -10,9 +10,7 @@ public class Complain {
         this.Description = description;
         ComplainState = true;
     }
-    public void SolveComplain(){
-        ComplainState = false;
-    }
+    public void SolveComplain(){ ComplainState = false; }
     public Business GetBusiness(){ return business; }
     public boolean GetComplainState(){ return ComplainState; }
     public void SetComplainState(boolean complainState){ this.ComplainState = ComplainState; }
